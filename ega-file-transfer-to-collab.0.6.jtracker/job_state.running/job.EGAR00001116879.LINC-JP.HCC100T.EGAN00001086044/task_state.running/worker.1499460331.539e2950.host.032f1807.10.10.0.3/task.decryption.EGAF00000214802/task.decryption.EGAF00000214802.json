@@ -1,0 +1,18 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000214802"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "file_name": "f656eacf87dce42e3f8788e8c8332bcb.HCC100T_GCCAAT_L007_R2_025.fastq.bz2", 
+    "file_md5sum": "f656eacf87dce42e3f8788e8c8332bcb", 
+    "ega_file_id": "EGAF00000214802", 
+    "object_id": "fb46eea1-1600-5d76-97c7-3b9114e481c7", 
+    "input_file": "/home/ubuntu/jtracker/worker.1499460331.539e2950.host.032f1807.10.10.0.3/job.EGAR00001116879.LINC-JP.HCC100T.EGAN00001086044/task.download.EGAF00000214802/f656eacf87dce42e3f8788e8c8332bcb.HCC100T_GCCAAT_L007_R2_025.fastq.bz2"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
