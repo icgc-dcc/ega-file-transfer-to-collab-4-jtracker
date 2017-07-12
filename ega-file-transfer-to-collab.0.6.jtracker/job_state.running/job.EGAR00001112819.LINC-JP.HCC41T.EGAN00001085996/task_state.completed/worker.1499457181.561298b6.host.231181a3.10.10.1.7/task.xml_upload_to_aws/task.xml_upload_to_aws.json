@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499457181.561298b6.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "b436b78a51d6557b20a1b30997d1b61d", 
+      "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001112819.LINC-JP.HCC41T.EGAN00001085996/task.prepare_metadata_xml/bundle.EGAR00001112819.xml", 
+      "file_size": 3665, 
+      "runtime": {
+        "task_start": 1499868718, 
+        "task_stop": 1499868724
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001112819.xml", 
+    "object_id": "795cf9b4-2fb0-5a8f-91db-c9000f14bf74", 
+    "file_md5sum": "b436b78a51d6557b20a1b30997d1b61d", 
+    "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001112819.LINC-JP.HCC41T.EGAN00001085996/task.prepare_metadata_xml/bundle.EGAR00001112819.xml", 
+    "file_size": 3665, 
+    "bundle_id": "EGAR00001112819", 
+    "project_code": "LINC-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
