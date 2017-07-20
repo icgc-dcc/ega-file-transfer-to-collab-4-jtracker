@@ -1,0 +1,45 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000206909", 
+    "completed@decryption.EGAF00000206909", 
+    "completed@download.EGAF00000206909"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499716017.b5c22856.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "49a3e1a0e9e522b4167be135899d3cfd", 
+      "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001112933.LINC-JP.HCC47T.EGAN00001085998/task.decryption.EGAF00000206909/49a3e1a0e9e522b4167be135899d3cfd.HCC47T_GATCAG_L003_R1_042.fastq.bz2", 
+      "file_size": 134329208, 
+      "runtime": {
+        "task_start": 1500532194, 
+        "task_stop": 1500532209
+      }
+    }
+  ], 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "49a3e1a0e9e522b4167be135899d3cfd.HCC47T_GATCAG_L003_R1_042.fastq.bz2", 
+    "idx_file": null, 
+    "object_id": "f1adc530-9c23-5c14-885d-602ebbe97d78", 
+    "idx_file_name": null, 
+    "file_md5sum": "49a3e1a0e9e522b4167be135899d3cfd", 
+    "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001112933.LINC-JP.HCC47T.EGAN00001085998/task.decryption.EGAF00000206909/49a3e1a0e9e522b4167be135899d3cfd.HCC47T_GATCAG_L003_R1_042.fastq.bz2", 
+    "idx_object_id": null, 
+    "project_code": "LINC-JP"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
