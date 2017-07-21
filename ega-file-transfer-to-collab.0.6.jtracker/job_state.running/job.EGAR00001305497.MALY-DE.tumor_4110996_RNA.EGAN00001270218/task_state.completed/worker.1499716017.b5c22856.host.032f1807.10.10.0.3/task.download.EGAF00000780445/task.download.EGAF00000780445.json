@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1499716017.b5c22856.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "90515d1e7fb4c4fbd2cf6cd222131b59.RNA-Seq-PAIRED-tumor_4110996_RNA-SN758_0139_BC397UACXX_CAGATC_L007-R2.fastq.gz", 
+      "ega_file_id": "EGAF00000780445", 
+      "object_id": "49fa145c-5481-511e-920f-de2a6032caf8", 
+      "file_md5sum": "90515d1e7fb4c4fbd2cf6cd222131b59", 
+      "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001305497.MALY-DE.tumor_4110996_RNA.EGAN00001270218/task.download.EGAF00000780445/90515d1e7fb4c4fbd2cf6cd222131b59.RNA-Seq-PAIRED-tumor_4110996_RNA-SN758_0139_BC397UACXX_CAGATC_L007-R2.fastq.gz", 
+      "runtime": {
+        "task_start": 1500653887, 
+        "task_stop": 1500654340
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "90515d1e7fb4c4fbd2cf6cd222131b59.RNA-Seq-PAIRED-tumor_4110996_RNA-SN758_0139_BC397UACXX_CAGATC_L007-R2.fastq.gz", 
+    "file_md5sum": "90515d1e7fb4c4fbd2cf6cd222131b59", 
+    "project_code": "MALY-DE", 
+    "object_id": "49fa145c-5481-511e-920f-de2a6032caf8", 
+    "ega_file_id": "EGAF00000780445"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
