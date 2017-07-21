@@ -1,0 +1,24 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000143411", 
+    "completed@decryption.EGAF00000143411", 
+    "completed@download.EGAF00000143411"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "ec84e321b28cd4c15f117cf3bdc2cff8.626WAAAXX_3_1_sequence.txt.gz", 
+    "idx_file": null, 
+    "object_id": "44085df5-c919-590c-bcc8-745c06b91bee", 
+    "project_code": "CLLE-ES", 
+    "file_md5sum": "ec84e321b28cd4c15f117cf3bdc2cff8", 
+    "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001072764.CLLE-ES.156-01-2TR.EGAN00001036979/task.decryption.EGAF00000143411/ec84e321b28cd4c15f117cf3bdc2cff8.626WAAAXX_3_1_sequence.txt.gz", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
