@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000780485", 
+    "completed@generate_bai.EGAF00000780485", 
+    "completed@upload_to_aws.EGAF00000780485"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "c69a8f01ae9d75b6cb23b356d2224cd6.RNA-Seq-PAIRED-tumor_4165379_RNA-SN758_0158_BC42H6ACXX_AGTCAA_L001-R2.fastq.gz", 
+    "idx_file": null, 
+    "object_id": "8a6d2757-36dd-594a-893e-177877d6dc83", 
+    "file_md5sum": "c69a8f01ae9d75b6cb23b356d2224cd6", 
+    "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001305517.MALY-DE.tumor_4165379_RNA.EGAN00001270238/task.decryption.EGAF00000780485/c69a8f01ae9d75b6cb23b356d2224cd6.RNA-Seq-PAIRED-tumor_4165379_RNA-SN758_0158_BC42H6ACXX_AGTCAA_L001-R2.fastq.gz", 
+    "file_size": 8461625494, 
+    "bundle_id": "EGAR00001305517", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
