@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499457181.561298b6.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "7efd2732a260d1c5a036900a6cc5436d", 
+      "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001072731.CLLE-ES.018-0045-01TR.EGAN00001036969/task.prepare_metadata_xml/bundle.EGAR00001072731.xml", 
+      "file_size": 4885, 
+      "runtime": {
+        "task_start": 1500612019, 
+        "task_stop": 1500612026
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001072731.xml", 
+    "object_id": "d48dd465-5044-56f6-a0eb-504678292e5b", 
+    "file_md5sum": "7efd2732a260d1c5a036900a6cc5436d", 
+    "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001072731.CLLE-ES.018-0045-01TR.EGAN00001036969/task.prepare_metadata_xml/bundle.EGAR00001072731.xml", 
+    "file_size": 4885, 
+    "bundle_id": "EGAR00001072731", 
+    "project_code": "CLLE-ES"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
