@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1499457181.561298b6.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "f17db188145820ce8e57494127196862.CLL280809_7_2.fastq.gz", 
+      "ega_file_id": "EGAF00000143332", 
+      "object_id": "9040779a-6ff8-50a2-9001-a49b4cdf2eab", 
+      "file_md5sum": "f17db188145820ce8e57494127196862", 
+      "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001072724.CLLE-ES.002-0010-05TR.EGAN00001085061/task.download.EGAF00000143332/f17db188145820ce8e57494127196862.CLL280809_7_2.fastq.gz", 
+      "runtime": {
+        "task_start": 1500595960, 
+        "task_stop": 1500596644
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "f17db188145820ce8e57494127196862.CLL280809_7_2.fastq.gz", 
+    "file_md5sum": "f17db188145820ce8e57494127196862", 
+    "project_code": "CLLE-ES", 
+    "object_id": "9040779a-6ff8-50a2-9001-a49b4cdf2eab", 
+    "ega_file_id": "EGAF00000143332"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
