@@ -1,0 +1,15 @@
+{
+  "task": "delete_encrypted_file", 
+  "depends_on": [
+    "completed@md5sum_check_decrypt.EGAF00000780475", 
+    "completed@download.EGAF00000780475"
+  ], 
+  "tool": "delete_file", 
+  "command": "delete_file.py", 
+  "input": {
+    "file": "/home/ubuntu/jtracker/worker.1500386341.51a53461.host.76674056.10.10.0.19/job.EGAR00001305512.MALY-DE.tumor_4124542_RNA.EGAN00001270233/task.download.EGAF00000780475/03d42646b1be03ef7f0c60f4e0ab0df7.RNA-Seq-PAIRED-tumor_4124542_RNA-D00133_0056_BC42MMACXX_GTCCGCAC_L003-R2.fastq.gz"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
