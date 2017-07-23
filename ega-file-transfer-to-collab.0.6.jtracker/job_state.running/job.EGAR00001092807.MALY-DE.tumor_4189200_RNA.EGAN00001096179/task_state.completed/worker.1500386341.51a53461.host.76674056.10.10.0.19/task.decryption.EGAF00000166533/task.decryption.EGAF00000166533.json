@@ -1,0 +1,38 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000166533"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1500386341.51a53461.host.76674056.10.10.0.19", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "d80c6f9e6b633ed6277cbdc0690fc868.RNA-Seq_tumor_4189200_RNA.1000genomes.complete.bam", 
+      "ega_file_id": "EGAF00000166533", 
+      "object_id": "242ea077-51e9-55a4-a6df-bfadd4c375a9", 
+      "file_md5sum": "d80c6f9e6b633ed6277cbdc0690fc868", 
+      "file": "/home/ubuntu/jtracker/worker.1500386341.51a53461.host.76674056.10.10.0.19/job.EGAR00001092807.MALY-DE.tumor_4189200_RNA.EGAN00001096179/task.decryption.EGAF00000166533/d80c6f9e6b633ed6277cbdc0690fc868.RNA-Seq_tumor_4189200_RNA.1000genomes.complete.bam", 
+      "file_size": 14258960922, 
+      "runtime": {
+        "task_start": 1500809326, 
+        "task_stop": 1500809407
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "d80c6f9e6b633ed6277cbdc0690fc868.RNA-Seq_tumor_4189200_RNA.1000genomes.complete.bam", 
+    "file_md5sum": "d80c6f9e6b633ed6277cbdc0690fc868", 
+    "ega_file_id": "EGAF00000166533", 
+    "object_id": "242ea077-51e9-55a4-a6df-bfadd4c375a9", 
+    "input_file": "/home/ubuntu/jtracker/worker.1500386341.51a53461.host.76674056.10.10.0.19/job.EGAR00001092807.MALY-DE.tumor_4189200_RNA.EGAN00001096179/task.download.EGAF00000166533/d80c6f9e6b633ed6277cbdc0690fc868.RNA-Seq_tumor_4189200_RNA.1000genomes.complete.bam"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
