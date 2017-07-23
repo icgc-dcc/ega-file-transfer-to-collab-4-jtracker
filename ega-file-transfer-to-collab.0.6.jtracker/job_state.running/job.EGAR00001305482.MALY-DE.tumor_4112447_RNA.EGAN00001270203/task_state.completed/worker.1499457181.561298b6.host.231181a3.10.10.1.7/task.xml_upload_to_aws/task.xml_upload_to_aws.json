@@ -1,0 +1,41 @@
+{
+  "task": "xml_upload_to_aws", 
+  "depends_on": [
+    "completed@prepare_metadata_xml"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499457181.561298b6.host.231181a3.10.10.1.7", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "a8b5190492ec9017501511e511d200cb", 
+      "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001305482.MALY-DE.tumor_4112447_RNA.EGAN00001270203/task.prepare_metadata_xml/bundle.EGAR00001305482.xml", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1500807613, 
+        "task_stop": 1500807613
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "bundle.EGAR00001305482.xml", 
+    "object_id": "634b747f-203d-5df1-9395-e79c86a4f36c", 
+    "file_md5sum": "a8b5190492ec9017501511e511d200cb", 
+    "file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001305482.MALY-DE.tumor_4112447_RNA.EGAN00001270203/task.prepare_metadata_xml/bundle.EGAR00001305482.xml", 
+    "file_size": 5169, 
+    "bundle_id": "EGAR00001305482", 
+    "project_code": "MALY-DE"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
