@@ -7,16 +7,37 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499716017.b5c22856.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "685f08fca43bbe2da900175681925e1d", 
+      "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001092800.MALY-DE.tumor_4112512_RNA.EGAN00001096172/task.decryption.EGAF00000166526/685f08fca43bbe2da900175681925e1d.RNA-Seq_tumor_4112512_RNA.1000genomes.complete.bam", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1500780432, 
+        "task_stop": 1500780432
+      }
+    }
+  ], 
   "input": {
     "idx_file_md5sum": null, 
     "file_name": "685f08fca43bbe2da900175681925e1d.RNA-Seq_tumor_4112512_RNA.1000genomes.complete.bam", 
     "idx_file": null, 
     "object_id": "eba2f6a4-6f2a-5187-9281-5280dce1f6d4", 
-    "project_code": "MALY-DE", 
+    "idx_file_name": null, 
     "file_md5sum": "685f08fca43bbe2da900175681925e1d", 
     "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001092800.MALY-DE.tumor_4112512_RNA.EGAN00001096172/task.decryption.EGAF00000166526/685f08fca43bbe2da900175681925e1d.RNA-Seq_tumor_4112512_RNA.1000genomes.complete.bam", 
     "idx_object_id": null, 
-    "idx_file_name": null
+    "project_code": "MALY-DE"
   }, 
   "runtime": {
     "docker": null
