@@ -5,6 +5,21 @@
   ], 
   "tool": "md5sum_check", 
   "command": "md5sum_check.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1500386341.51a53461.host.76674056.10.10.0.19", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "task_info": "Pass md5sum check", 
+      "runtime": {
+        "task_start": 1500792810, 
+        "task_stop": 1500792814
+      }
+    }
+  ], 
   "input": {
     "file_md5sum": "5da9ff28d92d5d3eb5fa1782c53e266f", 
     "file": "/home/ubuntu/jtracker/worker.1500386341.51a53461.host.76674056.10.10.0.19/job.EGAR00001305505.MALY-DE.tumor_4181460_RNA.EGAN00001270226/task.decryption.EGAF00000780461/5da9ff28d92d5d3eb5fa1782c53e266f.RNA-Seq-PAIRED-tumor_4181460_RNA-SN758_0139_BC397UACXX_CTTGTA_L005-R2.fastq.gz"
