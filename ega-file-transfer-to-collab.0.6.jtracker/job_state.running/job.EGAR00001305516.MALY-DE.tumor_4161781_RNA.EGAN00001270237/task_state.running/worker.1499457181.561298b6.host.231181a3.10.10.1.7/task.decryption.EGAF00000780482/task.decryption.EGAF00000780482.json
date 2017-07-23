@@ -1,0 +1,18 @@
+{
+  "task": "decryption", 
+  "depends_on": [
+    "completed@download.EGAF00000780482"
+  ], 
+  "tool": "decryption", 
+  "command": "decryption.py", 
+  "input": {
+    "file_name": "a12a41e9544d2a9055f0c220814c9ed9.RNA-Seq-PAIRED-tumor_4161781_RNA-D00133_0056_BC42MMACXX_GGCTACAT_L005-R1.fastq.gz", 
+    "file_md5sum": "a12a41e9544d2a9055f0c220814c9ed9", 
+    "ega_file_id": "EGAF00000780482", 
+    "object_id": "f1012e20-1f4b-5516-ae0a-ed4b4154beb5", 
+    "input_file": "/home/ubuntu/jtracker/worker.1499457181.561298b6.host.231181a3.10.10.1.7/job.EGAR00001305516.MALY-DE.tumor_4161781_RNA.EGAN00001270237/task.download.EGAF00000780482/a12a41e9544d2a9055f0c220814c9ed9.RNA-Seq-PAIRED-tumor_4161781_RNA-D00133_0056_BC42MMACXX_GGCTACAT_L005-R1.fastq.gz"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
