@@ -7,16 +7,37 @@
   ], 
   "tool": "upload_to_aws", 
   "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1499716017.b5c22856.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": false, 
+      "file_md5sum": "438896a0e81f60b4e4629c8a28a3ad3a", 
+      "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001261602.BTCA-JP.BD173T.EGAN00001246973/task.decryption.EGAF00000670333/438896a0e81f60b4e4629c8a28a3ad3a.BD173T_ACTTGA_L007_R2_037.fastq.bz2", 
+      "file_size": 0, 
+      "runtime": {
+        "task_start": 1501702377, 
+        "task_stop": 1501702377
+      }
+    }
+  ], 
   "input": {
     "idx_file_md5sum": null, 
     "file_name": "438896a0e81f60b4e4629c8a28a3ad3a.BD173T_ACTTGA_L007_R2_037.fastq.bz2", 
     "idx_file": null, 
     "object_id": "a00dc4e2-373a-5976-b846-22b58fc18a5e", 
-    "project_code": "BTCA-JP", 
+    "idx_file_name": null, 
     "file_md5sum": "438896a0e81f60b4e4629c8a28a3ad3a", 
     "file": "/home/ubuntu/jtracker/worker.1499716017.b5c22856.host.032f1807.10.10.0.3/job.EGAR00001261602.BTCA-JP.BD173T.EGAN00001246973/task.decryption.EGAF00000670333/438896a0e81f60b4e4629c8a28a3ad3a.BD173T_ACTTGA_L007_R2_037.fastq.bz2", 
     "idx_object_id": null, 
-    "idx_file_name": null
+    "project_code": "BTCA-JP"
   }, 
   "runtime": {
     "docker": null
