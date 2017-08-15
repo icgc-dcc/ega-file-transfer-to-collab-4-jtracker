@@ -1,0 +1,26 @@
+{
+  "task": "upload", 
+  "depends_on": [
+    "completed@decryption.EGAF00000064435", 
+    "completed@generate_bai.EGAF00000064435", 
+    "completed@upload_to_aws.EGAF00000064435"
+  ], 
+  "tool": "upload", 
+  "command": "upload.py", 
+  "input": {
+    "idx_file_size": null, 
+    "idx_file_md5sum": null, 
+    "file_name": "34e2c00cbac33ca5405af90f4cbe426a.4526_1.bam", 
+    "idx_file": null, 
+    "object_id": "a7e4fa3a-ba3c-535a-8dfa-a8365d5adc02", 
+    "file_md5sum": "34e2c00cbac33ca5405af90f4cbe426a", 
+    "file": "/home/ubuntu/jtracker/worker.1502297062.aec01666.host.032f1807.10.10.0.3/job.EGAR00001029488.BRCA-UK.PD4091a.EGAN00001000860/task.decryption.EGAF00000064435/34e2c00cbac33ca5405af90f4cbe426a.4526_1.bam", 
+    "file_size": 3670247796, 
+    "bundle_id": "EGAR00001029488", 
+    "idx_object_id": null, 
+    "idx_file_name": null
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
