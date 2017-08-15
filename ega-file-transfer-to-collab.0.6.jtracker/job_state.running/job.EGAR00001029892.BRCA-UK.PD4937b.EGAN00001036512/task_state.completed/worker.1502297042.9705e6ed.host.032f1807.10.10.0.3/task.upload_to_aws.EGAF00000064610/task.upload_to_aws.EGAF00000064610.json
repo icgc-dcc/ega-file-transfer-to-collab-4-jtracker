@@ -1,0 +1,45 @@
+{
+  "task": "upload_to_aws", 
+  "depends_on": [
+    "completed@generate_bai.EGAF00000064610", 
+    "completed@decryption.EGAF00000064610", 
+    "completed@download.EGAF00000064610"
+  ], 
+  "tool": "upload_to_aws", 
+  "command": "upload_to_aws.py", 
+  "output": [
+    {
+      "idx_file_size": 0, 
+      "idx_file_md5sum": null, 
+      "_jt_": {
+        "worker_id": "worker.1502297042.9705e6ed.host.032f1807.10.10.0.3", 
+        "workflow_version": "0.6.7", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "idx_file": null, 
+      "allowed_upload": true, 
+      "file_md5sum": "d022156a2551ffe30f6106ae943e07d5", 
+      "file": "/home/ubuntu/jtracker/worker.1502297042.9705e6ed.host.032f1807.10.10.0.3/job.EGAR00001029892.BRCA-UK.PD4937b.EGAN00001036512/task.decryption.EGAF00000064610/d022156a2551ffe30f6106ae943e07d5.5942_3_2.bam", 
+      "file_size": 13005643949, 
+      "runtime": {
+        "task_start": 1502763923, 
+        "task_stop": 1502764023
+      }
+    }
+  ], 
+  "input": {
+    "idx_file_md5sum": null, 
+    "file_name": "d022156a2551ffe30f6106ae943e07d5.5942_3_2.bam", 
+    "idx_file": null, 
+    "object_id": "cd6a974e-6de0-5d65-9f7b-aa6a848d06db", 
+    "idx_file_name": null, 
+    "file_md5sum": "d022156a2551ffe30f6106ae943e07d5", 
+    "file": "/home/ubuntu/jtracker/worker.1502297042.9705e6ed.host.032f1807.10.10.0.3/job.EGAR00001029892.BRCA-UK.PD4937b.EGAN00001036512/task.decryption.EGAF00000064610/d022156a2551ffe30f6106ae943e07d5.5942_3_2.bam", 
+    "idx_object_id": null, 
+    "project_code": "BRCA-UK"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
