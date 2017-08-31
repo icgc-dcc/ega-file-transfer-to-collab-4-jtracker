@@ -1,0 +1,15 @@
+{
+  "task": "qc_from_collab", 
+  "depends_on": [
+    "completed@upload.EGAF00001578946"
+  ], 
+  "tool": "qc_from_collab", 
+  "command": "qc_from_collab.py", 
+  "input": {
+    "file_name": "80948b7e418fd9aa4f1ca1569bbeb94b.20170307_icgc_prostate_068.bam", 
+    "object_id": "e1082e37-ce2d-5ff3-909f-0e1424fd6362"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
