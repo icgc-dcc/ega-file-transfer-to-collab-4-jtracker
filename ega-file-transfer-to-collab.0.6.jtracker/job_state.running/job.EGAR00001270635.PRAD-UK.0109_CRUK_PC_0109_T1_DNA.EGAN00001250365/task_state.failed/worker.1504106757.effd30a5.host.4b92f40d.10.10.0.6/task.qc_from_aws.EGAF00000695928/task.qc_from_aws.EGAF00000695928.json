@@ -1,0 +1,31 @@
+{
+  "task": "qc_from_aws", 
+  "depends_on": [
+    "completed@upload_to_aws.EGAF00000695928"
+  ], 
+  "tool": "qc_from_aws", 
+  "command": "qc_from_aws.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504106757.effd30a5.host.4b92f40d.10.10.0.6", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "failed"
+      }, 
+      "task_info": "Error: File b9036373-2c01-5985-b0d7-7eccfa573f42:76b429268bfa0623402f17b44cd0d37a.180287_icgc.bam couldn't be downloaded from aws.", 
+      "runtime": {
+        "task_start": 1504233551, 
+        "task_stop": 1504234511
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "76b429268bfa0623402f17b44cd0d37a.180287_icgc.bam", 
+    "project_code": "PRAD-UK", 
+    "object_id": "b9036373-2c01-5985-b0d7-7eccfa573f42"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
