@@ -1,0 +1,35 @@
+{
+  "task": "download", 
+  "depends_on": null, 
+  "tool": "download", 
+  "command": "download.py", 
+  "output": [
+    {
+      "_jt_": {
+        "worker_id": "worker.1504106758.67a7655e.host.4b92f40d.10.10.0.6", 
+        "workflow_version": "0.6.11", 
+        "jt_version": "0.1.0rc9", 
+        "task_state": "completed"
+      }, 
+      "file_name": "a1766e81a129877f3072cc1e5125c14b.180286_icgc.bam", 
+      "ega_file_id": "EGAF00000696257", 
+      "object_id": "3594d38a-d365-5fce-a0ba-836f9b2e8f7c", 
+      "file_md5sum": "a1766e81a129877f3072cc1e5125c14b", 
+      "file": "/home/ubuntu/jtracker/worker.1504106758.67a7655e.host.4b92f40d.10.10.0.6/job.EGAR00001271216.PRAD-UK.0108_CRUK_PC_0108_Blood_DNA.EGAN00001250364/task.download.EGAF00000696257/a1766e81a129877f3072cc1e5125c14b.180286_icgc.bam", 
+      "runtime": {
+        "task_start": 1504279942, 
+        "task_stop": 1504286612
+      }
+    }
+  ], 
+  "input": {
+    "file_name": "a1766e81a129877f3072cc1e5125c14b.180286_icgc.bam", 
+    "file_md5sum": "a1766e81a129877f3072cc1e5125c14b", 
+    "project_code": "PRAD-UK", 
+    "object_id": "3594d38a-d365-5fce-a0ba-836f9b2e8f7c", 
+    "ega_file_id": "EGAF00000696257"
+  }, 
+  "runtime": {
+    "docker": null
+  }
+}
